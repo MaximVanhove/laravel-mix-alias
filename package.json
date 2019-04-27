@@ -21,5 +21,6 @@
     "homepage": "https://github.com/MaximVanhove/laravel-mix-alias#readme",
     "peerDependencies": {
         "laravel-mix": "^2.0.0"
-    }
+    },
+    "version": "1.0.0"
 }
