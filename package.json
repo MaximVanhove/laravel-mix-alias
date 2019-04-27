@@ -1,0 +1,25 @@
+{
+    "name": "laravel-mix-alias",
+    "description": "A Laravel Mix extension for Webpack alias support.",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MaximVanhove/laravel-mix-alias.git"
+    },
+    "keywords": [
+        "laravel",
+        "laravel mix",
+        "mix",
+        "webpack",
+        "alias"
+    ],
+    "author": "Maxim Vanhove",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/MaximVanhove/laravel-mix-alias/issues"
+    },
+    "homepage": "https://github.com/MaximVanhove/laravel-mix-alias#readme",
+    "peerDependencies": {
+        "laravel-mix": "^2.0.0"
+    }
+}
