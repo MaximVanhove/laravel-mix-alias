@@ -23,8 +23,8 @@ const mix = require('laravel-mix');
 require('laravel-mix-alias');
 
 mix.alias({
-    '@': '/resources/assets/js',
-    '~': '/resources/assets/sass',
+    '@': '/resources/js',
+    '~': '/resources/sass',
 });
 ```
 
@@ -34,8 +34,8 @@ or add them one by one
 const mix = require('laravel-mix');
 require('laravel-mix-alias');
 
-mix.alias('@', '/resources/assets/js');
-mix.alias('~', '/resources/assets/sass');
+mix.alias('@', '/resources/js');
+mix.alias('~', '/resources/sass');
 ```
 
 Now you can import sass files from the path you specified
