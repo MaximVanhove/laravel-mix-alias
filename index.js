@@ -1,11 +1,12 @@
 const mix = require('laravel-mix');
+const Path = require('path');
 
 class Alias {
     register (alias, path = null) {
         const aliases = getAliasesObject(alias, path);
 
         this.aliases = Object.assign(aliases, this.aliases || {});
-        this.rootPath = global.path.resolve(__dirname, '../../');
+        this.rootPath = Path.resolve(__dirname, '../../');
     }
 
     webpackConfig (webpackConfig) {
