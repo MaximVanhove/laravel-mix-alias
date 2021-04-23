@@ -2,6 +2,10 @@
 
 Add aliases to your source files.
 
+## Requirements
+
+⚠️ ⚠️ Only use this package with Laravel Mix v5 and below! The alias function was added to the core of v6. ⚠️ ⚠️
+
 ## Installation
 
 ```
